@@ -7,11 +7,11 @@ http.createServer(function(req, res) {
 
   if (md.os() == 'iOS') {
     res.writeHead(301,
-      {Location: 'http://mobile.kodw.org/ios/'}
+      {Location: 'http://kodw-ios.homesmartly.com/'}
     );
   } else if (md.os() == 'AndroidOS') {
     res.writeHead(301,
-      {Location: 'http://mobile.kodw.org/android/'}
+      {Location: 'http://kodw-android.homesmartly.com/'}
     );
   }
   res.end();
